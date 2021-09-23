@@ -17,11 +17,11 @@ Simple script to display song lyrics on terminal.
  - Python Package: [https://pypi.org/project/lyricli/0.0.9/](https://pypi.org/project/lyricli/0.0.9/)
 
 ## Requirements
- - Python 3.6+
+ - Python 3.8+
 
 ## Installation 
  ```sh
-pip install lyricli==0.0.9
+python3 -m pip install lyricli==0.0.11
  ```
 ## Usage
 

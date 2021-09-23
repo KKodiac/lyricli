@@ -10,15 +10,15 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 requires = [
-    "beautifulsoup4>=4.10.0",
-    "six>=1.16.0",
-    "lxml>=4.6.3",
-    "requests>=2.26.0",
+    "beautifulsoup4",
+    "six",
+    "lxml",
+    "requests",
 ]
 
 setup(
     name="lyricli",
-    version="0.0.9",
+    version="0.0.12",
     author="Sean Hong",
     author_email="seanhong2000@gmail.com",
     description="Cli tool made with python for viewing lyrics",
@@ -39,7 +39,8 @@ setup(
         "Operating System :: OS Independent",
     ],
     packages=find_packages(),
-    python_requires=">=3.6",
+    install_requires=requires,
+    python_requires=">=3.8",
     entry_points={
         'console_scripts': [
             'lyricli = lyricli.console:main',
