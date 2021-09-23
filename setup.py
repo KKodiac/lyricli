@@ -9,9 +9,16 @@ Uses Melon service.
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
+requires = [
+    "beautifulsoup4>=4.10.0",
+    "six>=1.16.0",
+    "lxml>=4.6.3",
+    "requests>=2.26.0",
+]
+
 setup(
-    name="lyricli-pkg-KKodiac",
-    version="0.0.1",
+    name="lyricli",
+    version="0.0.9",
     author="Sean Hong",
     author_email="seanhong2000@gmail.com",
     description="Cli tool made with python for viewing lyrics",
@@ -22,11 +29,20 @@ setup(
         "Bug Tracker": "https://github.com/KKodaic/lyricli/issues",
     },
     classifiers=[
-        "Programming Language :: Python :: 3",
+        "Environment :: Console",
+        "Programming Language :: Python",
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3 :: Only",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    package_dir={"": "lyricli"},
-    packages=find_packages(where="lyricli"),
+    packages=find_packages(),
     python_requires=">=3.6",
+    entry_points={
+        'console_scripts': [
+            'lyricli = lyricli.console:main',
+        ],
+    }
 )

@@ -5,10 +5,10 @@ import sys
 from argparse import ArgumentParser, ArgumentTypeError
 from collections import namedtuple
 
-from exceptions import ConsoleException, ParserException
-from melon import get_lyrics
-from output import print_out, print_err
-from __init__ import __version__
+from lyricli.exceptions import ConsoleException, ParserException
+from lyricli.melon import get_lyrics
+from lyricli.output import print_out, print_err
+from lyricli.__init__ import __version__
 
 Command = namedtuple("Command", ["name", "description", "arguments"])
 CLIENT_WEBSITE = ""

@@ -1,5 +1,5 @@
 from bs4 import BeautifulSoup as bs4
-from exceptions import ParserException
+from lyricli.exceptions import ParserException
 
 class Parser:
     def feed(self, html):

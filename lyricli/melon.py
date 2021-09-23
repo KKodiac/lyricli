@@ -4,9 +4,9 @@
 
 import requests
 
-from exceptions import ConsoleException, ParserException
-from output import print_out
-from parser import Parser
+from lyricli.exceptions import ConsoleException, ParserException
+from lyricli.output import print_out
+from lyricli.parser import Parser
 
 BASE_URL = "https://www.melon.com/"
 INDEX_POSTFIX = "search/total/index.htm?q="
@@ -15,6 +15,7 @@ DETAIL_POSTFIX = "song/detail.htm?songId="
 def get_lyrics(args):
     title = "+".join(args.title.split())
     artist = args.artist if args.artist else ""
+    artist = "+".join(artist.split())
     query_string = "{}+{}".format(title, artist)
     url = '{}{}{}'.format(BASE_URL, INDEX_POSTFIX, query_string)
     headers = {
