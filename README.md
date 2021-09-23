@@ -24,6 +24,7 @@ Simple script to display song lyrics on terminal.
 pip install lyricli==0.0.9
  ```
 ## Usage
+![lyricli](https://user-images.githubusercontent.com/35219323/134548133-cfe5a138-1303-4c61-8b94-22525e499079.gif)
 
 ```sh
 lyricli lyrics [-t, --title] {MUSIC-TITLE} [-r, --artist] {ARTIST-NAME}
