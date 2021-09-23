@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+lyricli/lyricli/__init__.py
+lyricli/lyricli/lyrics.py
+lyricli/lyricli_pkg_KKodiac.egg-info/PKG-INFO
+lyricli/lyricli_pkg_KKodiac.egg-info/SOURCES.txt
+lyricli/lyricli_pkg_KKodiac.egg-info/dependency_links.txt
+lyricli/lyricli_pkg_KKodiac.egg-info/top_level.txt

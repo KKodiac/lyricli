@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: lyricli-pkg-KKodiac
+Version: 0.0.1
+Summary: Cli tool made with python for viewing lyrics
+Home-page: https://github.com/KKodiac/lyricli
+Author: Sean Hong
+Author-email: seanhong2000@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/KKodaic/lyricli/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Lyricli
+
+터미널에서 원하는 가사를 보여줍니다. 
+
+## Resources 
+ - Homepage: [https://github.com/KKodiac/lyricli](https://github.com/KKodiac/lyricli)
+ - Issues: [https://github.com/KKodiac/lyricli/issues](https://github.com/KKodiac/lyricli/issues)
+ - Python Package: []
+
+## Requirements
+ - Python 3.6+
+
+## Installation 
+ 
+## Usage
+
+## License
+
+Contributor [Sean Hong](https://github.com/KKodiac)
+
+Licensed under MIT License 
+
+
